@@ -1,0 +1,30 @@
+------index
+        -navbar
+        -hero section(for user and for 1st time visitor)
+        -footer
+---------aboutus
+            --navbar(same as index)
+            -- defines things aboutus
+         Search recipe
+            --navbar(home,changeIngredientsLanguage(translate using API),curated ingredients(veg/non-veg))
+            --{
+                ----upto krishna------
+            }
+            -footer
+--------login & register
+            ---login 
+                --- email  and password
+                    signin with google
+            ---(swg and ;email & password registration)
+--------Post
+        -posting section/view section (post.html/mainView.html)
+        ---------------your posts / recommended post (foryou/following)
+        -interaction (like viewing ,comment management / review , rating)
+        -footer
+
+
+
+
+        
+        
+        

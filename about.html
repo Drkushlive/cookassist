@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="script" href="script.js">
+  
+  
+  <!--jQuery-->
+      <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  
+  
+  
+  <!--Firebase Initialization-->
+  <script>
+    // Import the functions you need from the SDKs you need
+        import { initializeApp } from "firebase/app";
+        import { getAnalytics } from "firebase/analytics";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyA5Hb1egc8ZsU-QbLZxFenBoBwrCrLRDFI",
+          authDomain: "kook-e-627f4.firebaseapp.com",
+          projectId: "kook-e-627f4",
+          storageBucket: "kook-e-627f4.appspot.com",
+          messagingSenderId: "1053106897515",
+          appId: "1:1053106897515:web:2f2b43c07dcffea35b672e",
+          measurementId: "G-03NZV9WWKF"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+          </script>
+
+    <title>Cooking Assistant</title>
+
+</head>
+
+<body>
+   
+      <!--NAVBAR -->
+          <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">CookAssist</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="post.html" class="nav__link">Post</a></li>
+                        <li class="nav__item"><a href="function.html" class="nav__link">Function</a></li>
+                        <li class="nav__item"><a href="login.html" class="nav__link">Login</a></li>
+                        <li class="nav__item"><a href="signup.html" class="nav__link">Register</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about1.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Kushal</h2>
+                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                    </div>                                   
+                </div>
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about2.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Krishna</h2>
+                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                    </div>                                   
+                </div>
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about3.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Shreeram</h2>
+                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== FOOTER =====-->
+        <footer class="footer">
+          <p class="footer__title">KSK</p>
+          <p1>This is the software developed as a project by BSCcsIt students ,</p1>
+          <p class="footer__copy">&#169; KSK. All rigths reserved</p>
+      </footer>
+        </header>
+
+
+
+          
+          
+        
+
+
+        
+
+
+
+  
+  
+</body>
+</html>
